@@ -1,0 +1,146 @@
+p.rtl {
+    direction: rtl;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 255, 255);
+}
+
+/*--- navigation bar ---*/
+
+@font-face {
+    font-family: Kalameh;
+    src: url(../Kalameh_Regular.ttf);
+}
+
+@font-face {
+    font-family: KalamehBold;
+    src: url(../Kalameh_Bold.ttf);
+}
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+}
+
+.navbar-layout {
+    width: 100%;
+    background: rgb(232, 239, 247);
+    height: 100px;
+    box-shadow: 0px 1px 10px rgb(200, 200, 200);
+}
+
+.signin-and-signup-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+}
+
+.signin-button {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100px;
+    height: 32px;
+    background-color: rgb(232, 239, 247);
+    border: 2px solid rgb(24, 106, 165);
+    border-radius: 4px;
+}
+
+.signin-and-signup-texts {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: KalamehBold;
+    color: rgb(24, 106, 165);
+}
+
+.home-data-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    width: 201px;
+    position: absolute;
+    right: 300px;
+}
+
+.home-data-buttons {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(232, 239, 247);
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-bottom: 4px solid rgb(24, 106, 165);
+}
+
+.home-data-texts {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Kalameh;
+    color: rgb(24, 106, 165);
+}
+
+.main-body {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-right: 300px;
+    justify-content: center;
+    align-content: center;
+}
+
+.sidebar-menu {
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: rgb(24, 106, 165);
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 300px;
+    height: 100%;
+}
+
+.team-members-div {
+    width: 100%;
+    height: 150px;
+    padding: 25px;
+}
+
+.team-members-title-text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-content: center;
+    font-family: KalamehBold;
+    font-size: larger;
+    color: rgb(232, 239, 247);
+}
+
+.team-members-list {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Kalameh;
+    color: rgb(232, 239, 247);
+}
