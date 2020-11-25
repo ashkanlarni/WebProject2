@@ -144,3 +144,33 @@ body {
     font-family: Kalameh;
     color: rgb(232, 239, 247);
 }
+
+.table-text {
+    display: flex;
+    justify-content: center;
+    font-family: Kalameh;
+    color: rgb(24, 106, 165);
+}
+
+.table-buttons {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 87.5px;
+    height: 28px;
+    background-color: white;
+    border: 1px solid rgb(24, 106, 165);
+    border-radius: 2px;
+}
+
+.table-buttons-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Kalameh;
+    font-size: small;
+    color: rgb(24, 106, 165);
+}
