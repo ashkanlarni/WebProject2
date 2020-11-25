@@ -1,0 +1,194 @@
+p.rtl {
+    direction: rtl;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    background: rgb(232, 239, 247);
+}
+
+/*--- navigation bar ---*/
+
+@font-face {
+    font-family: Kalameh;
+    src: url(../Kalameh_Regular.ttf);
+}
+
+@font-face {
+    font-family: KalamehBold;
+    src: url(../Kalameh_Bold.ttf);
+}
+
+@font-face {
+    font-family: NeueMontrealBold;
+    src: url(../NeueMontreal-Bold.otf);
+}
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-layout {
+    display: flex;
+    width: 100%;
+    background: rgb(232, 239, 247);
+    height: 100px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.back-to-home-button {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 250px;
+    height: 32px;
+}
+
+.back-to-home-button-text {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: Kalameh;
+    color: rgb(24, 106, 165);
+}
+
+.back-to-home-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 11.25vw;
+    bottom: 7.5vw;
+    left: 15vw;
+    right: 15vw;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.login-form {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+.login-motivation {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 75px;
+    /* background-color: rgb(24, 106, 165); */
+    background-image: url(../../web_hw2/files/signup-highQ-light.jpg);
+    backgro
+}
+
+.login-motivation-text {
+    display: flex;
+    text-align: left;
+    font-family: NeueMontrealBold;
+    font-size: 60px;
+    color: rgb(24, 106, 165);
+}
+
+.select-signin-signup {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 0px;
+}
+
+.select-signin-signup-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+.select-signin-signup-texts {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: KalamehBold;
+    color: rgb(24, 106, 165);
+}
+
+.signup-form-inputs {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.form-text-areas {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: Kalameh;
+    border-radius: 2px;
+    border-color: rgb(164, 192, 223);
+}
+
+.checkbox-rules {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.submit-button {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(24, 106, 165);
+    border: 2px solid rgb(24, 106, 165);
+    border-radius: 4px;
+    position: relative;
+    top: 15px;
+}
